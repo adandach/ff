@@ -49,3 +49,12 @@
   left: 7%;
   top: unset;
 }
+
+.Card > .Bye-Week {
+  margin: 0;
+  position: absolute;
+  bottom: 5%;
+  right: 7%;
+  left: unset;
+  top: unset;
+}

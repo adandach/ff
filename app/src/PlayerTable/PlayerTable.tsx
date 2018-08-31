@@ -133,6 +133,7 @@ class PlayerTable extends React.Component<IProps, IState> {
             </div>
             <p className="col col-pos">Position</p>
             <p className="col col-team">Team</p>
+            <p className="col col-bye">Bye Week</p>
             <p className="col col-vor" data-tip="Value over replacement">
               VOR
             </p>
@@ -188,6 +189,7 @@ class PlayerTable extends React.Component<IProps, IState> {
                 </div>
                 <p className="col col-pos">{p.pos}</p>
                 <p className="col col-team">{p.team}</p>
+                <p className="col col-bye">{p.bye}</p>
                 <p className="col col-vor">{p.vor}</p>
                 <p className="col col-prediction">
                   {ppr ? p.predictionPPR : p.predictionSTN}

@@ -37,6 +37,7 @@ export default class PlayerCard extends React.PureComponent<IProps> {
         <h5>{player.pos}</h5>
         <p className="small">{playerName}</p>
         <p className="Team-Points small">{player.vor}</p>
+        <p className="Bye-Week small">{player.bye}</p>
       </div>
     );
   }
